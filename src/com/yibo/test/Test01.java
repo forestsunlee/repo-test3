@@ -16,7 +16,6 @@ public class Test01 {
         HashMap<Character, Integer> map = new HashMap<>();
         char[] chars = data.toCharArray();
         for (int i = 0; i <chars.length ; i++) {
-            //判断字符是大写还是小写
             if('A'<=chars[i] && chars[i]<='Z') {
                 if (map.size()==0){
                     map.put(chars[i],1);
